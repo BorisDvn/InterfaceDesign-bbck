@@ -9,13 +9,25 @@ body {
 }
 
 
+/*Contact */
+
+#contact {
+    border: 2px green solid;
+    border-radius: 15px;
+    background-color: aqua;
+    width: 800px;
+    height: 800px;
+}
+
+#contact_block_1 {
+    margin: 10px;
+}
+
+
 /*todo garder le footer au bottom*/
 
 
-/*footer {
-    position:absolute;
-    bottom: 0;
-}*/
+/*footer */
 
 #footerMenu ul {
     list-style-type: none;

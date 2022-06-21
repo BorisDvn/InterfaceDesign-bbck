@@ -2,11 +2,46 @@ body {
 
 }
 
-.toto {
-    border: 3px red solid;
-    height: 1000px;
+.row-top{
+    margin-top: 5%;
 }
 
+.row-dev {
+    margin-top: -15%;
+}
+
+.content {
+    margin-top: 5em;
+}
+
+.content a {
+    color: #0C729E;
+    text-decoration: none;
+}
+
+.img-sys-ad {
+    padding-right: 8em;
+}
+
+.dev-title {
+    font-family: Farro;
+    font-weight: bold;
+    font-size: 35px;
+}
+
+.text-home-head {
+    font-family: inter;
+    font-weight: bold;
+    font-size: 69px;
+    position: relative;
+    left: 10.5em;
+    top: -5em;
+    width: 390px;
+}
+
+.cloud-part {
+    color: #0C729E;
+}
 
 /*todo garder le footer au bottom*/
 

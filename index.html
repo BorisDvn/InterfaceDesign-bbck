@@ -10,32 +10,41 @@
 </head>
 
 <body>
-
-
+    <div id="contact_title">
+        <span id="title1">Contact us </span> <span id="title2">Here...</span>
+    </div>
     <div id="contact">
         <form method="post" action="">
-            <div id="contact_block_1">
-                <label for="firstname">Firstname : <label>
-                <input type="text" name="firstname" id="firstname" maxlength="15" placeholder="Tim" />            
-                <label for="lastname">Lastname : <label>
-                <input type="text" name="lastname" id="lastname" maxlength="15" placeholder="Mustermann" />
+            <div id="contact_part1">
+                <div id="contact_block_1">
+                    <div id="firstname">
+                        <label for="firstname">Firstname : </label>
+                        <input type="text" name="firstname" id="firstname" maxlength="15" placeholder="Tim" />
+                    </div>
+                    <div id="lastname">
+                        <label for="lastname">Lastname : </label>
+                        <input type="text" name="lastname" id="lastname" maxlength="15" placeholder="Mustermann" />
+                    </div>
+                </div>
+
+                <div id="contact_block_2">
+                    <div id="company">
+                        <label for="company">Company name : </label>
+                        <input type="text" name="company" id="company" maxlength="15" placeholder="Firma... gmbh" />
+                    </div>
+                    <div id="phone">
+                        <label for="phone">Tel : </label>
+                        <input type="text" name="phone" id="phone" maxlength="15" placeholder="exemple_value" />
+                    </div>
+                </div>
             </div>
 
-
-            <div id="contact_block_2">
-                <label for="company">Company : <label>
-                <input type="text" name="company" id="company" maxlength="15" placeholder="Firma... gmbh" />
-                <label for="phone">Tel<label>
-                <input type="text" name="phone" id="phone" maxlength="15" placeholder="exemple_value" />
+            <div id="contact_part2">
+                <label for="company">Company : </label>
+                <textarea rows="8" cols="50"></textarea>
+                <input type="submit" value="Send" />
             </div>
-
-            <textarea rows="5" cols="150">Massage : </textarea>
-            <input type="submit" value="Envoyer" />
         </form>
-    </div>
-
-    <div class="toto">
-        toto
     </div>
 
     <footer>

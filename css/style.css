@@ -1,11 +1,65 @@
-body {
+/*body {
     margin-left: 10%;
     margin-right: 10%;
+}*/
+
+
+/*team*/
+
+#person {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    align-content: stretch;
+    padding-left: 10%;
+    padding-right: 10%;
 }
 
-.toto {
-    border: 3px red solid;
-    height: 1000px;
+#personHead img {
+    border-radius: 12px;
+    margin-bottom: 15px;
+}
+
+#person1 {
+    width: 40%;
+}
+
+#person2 {
+    width: 40%;
+}
+
+#personName {
+    font-size: x-large;
+    font-weight: bold;
+}
+
+#personPosition {
+    font-size: large;
+}
+
+#personlogo {
+    margin-top: 10px;
+}
+
+#personBody h3 {
+    margin: 0;
+}
+
+#aboutMe {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#personBody h3 {
+    text-decoration-color: blue;
+    text-decoration-line: underline;
+    text-decoration-thickness: 3px;
+    text-underline-offset: 0.3em;
+    text-underline-offset: 3px;
+}
+
+#personBody p {
+    margin: 5px;
 }
 
 

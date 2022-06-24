@@ -8,6 +8,12 @@
     /*height: 30%;*/
 }
 
+.vertical {
+    border: 4px solid #305bd3;
+    width: 0px;
+    padding: 0;
+}
+
 .card-body {
     padding: 10px;
 }
@@ -15,7 +21,7 @@
 .card-img-top {
     margin: auto;
     width: 70%;
-    height: 50%;
+    height: 70%;
 }
 
 .btn-primary {

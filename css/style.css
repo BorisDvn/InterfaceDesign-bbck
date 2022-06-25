@@ -4,6 +4,18 @@
 }*/
 
 
+/*entete*/
+
+#entete {
+    padding-top: 15px;
+    text-align: center;
+    height: 150px;
+    background-color: aquamarine;
+    padding-bottom: 15px;
+    margin-bottom: 15px;
+}
+
+
 /*team*/
 
 #person {
@@ -13,6 +25,9 @@
     align-content: stretch;
     padding-left: 10%;
     padding-right: 10%;
+    background-image: url("../img/blob.svg");
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 #personHead img {
@@ -20,13 +35,15 @@
     margin-bottom: 15px;
 }
 
-#person1 {
-    width: 40%;
-}
 
-#person2 {
+/*#person1 {
+    width: 100%;
+}*/
+
+
+/*#person2 {
     width: 40%;
-}
+}*/
 
 #personName {
     font-size: x-large;
@@ -128,9 +145,29 @@
 }*/
 
 @media screen and (max-width: 700px) {
+    #person {
+        flex-direction: column;
+        background: none;
+        padding-left: 0%;
+        padding-right: 0%;
+    }
+    #profil {
+        border-radius: 0px;
+    }
+    #person1 {
+        width: 80%;
+        margin: auto;
+        margin-bottom: 20px;
+        padding-bottom: 15px;
+        border-bottom: 8px steelblue solid;
+    }
+    #person2 {
+        width: 80%;
+        margin: auto;
+    }
     #footerHeader {
         height: 90px;
-        background-image: url("../../img/footer_header_resp.svg");
+        background-image: url("../img/footer_header_resp.svg");
     }
     #footerMenu {
         flex-direction: column;

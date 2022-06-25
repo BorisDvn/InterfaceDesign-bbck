@@ -22,25 +22,25 @@ body {
 
 #contact {
     margin: auto;
-    font-size: xx-large;
+    font-size: 2em;
     color: black;
     border: 2px rgb(15, 15, 129) solid;
     border-radius: 15px;
     background-color: rgb(32, 96, 165);
-    max-width: 40%;
-    height: 400px;
+    width: 50%;
     padding-left: 20px;
     padding-right: 20px;
     padding-top: 20px;
     /*padding-bottom: 10px;*/
     position: relative;
+    white-space: nowrap;
 }
 
 #contact_part1 {
     display: flex;
-    /*justify-content: space-between;*/
-    flex-wrap: wrap;
-    margin-bottom: 15px;
+    justify-content: space-between;
+    /*flex-wrap: wrap;*/
+    /* flex-direction: column;*/
 }
 
 #contact_part1 input {
@@ -57,21 +57,39 @@ body {
 #contact_block_1 {
     width: 50%;
     display: flex;
+    /*flex-wrap: wrap;*/
     flex-direction: column;
 }
 
 #firstname {
     margin-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+#lastname {
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: column;
 }
 
 #contact_block_2 {
     width: 50%;
     display: flex;
+    /*flex-wrap: wrap;*/
     flex-direction: column;
 }
 
 #company {
     margin-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+#phone {
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: column;
 }
 
 #contact_part2 label {
@@ -95,7 +113,8 @@ body {
     margin-right: 15px;
     margin-bottom: 1px;
     background-color: aliceblue;
-    font-size: large;
+    /*font-size: 0.5em;*/
+    font-weight: bold;
 }
 
 
@@ -127,7 +146,7 @@ body {
 
 #footerHeader {
     height: 100px;
-    background-image: url("../img/footer_header_resp.svg");
+    background-image: url("../img/footer_header.svg");
     background-repeat: no-repeat;
     background-position: bottom;
     background-size: 100% 100%;
@@ -178,4 +197,25 @@ body {
     #footerMenu :nth-child(2) {
         order: -1;
     }
+    #contact_part1 {
+        display: flex;
+        /*justify-content: space-between;*/
+        /*flex-wrap: wrap;*/
+        margin-bottom: 15px;
+        flex-direction: column;
+    }
+    #contact_part1 input {
+        width: 190%;
+    }
 }
+
+
+/*
+@media screen and (max-width: 1120) {
+    #contact_part1 {
+        display: flex;
+        
+        margin-bottom: 15px;
+        flex-direction: column;
+    }
+}*/

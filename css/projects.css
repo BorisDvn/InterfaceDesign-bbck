@@ -1,12 +1,7 @@
-body {
-
-}
-
 .row-top {
     margin-top: 5% !important;
     height: 250px;
     background-color: #F7FCFE;
-
 }
 
 .row-top p {
@@ -20,7 +15,8 @@ body {
     font-weight: bold;
 }
 
-.code-left, .code-rigth {
+.code-left,
+.code-rigth {
     color: #0C729E;
 }
 
@@ -41,9 +37,7 @@ body {
     text-decoration: none;
 }
 
-.img-rent-app {
-
-}
+.img-rent-app {}
 
 .dev-title {
     font-family: Farro;
@@ -73,6 +67,7 @@ body {
 .cloud-part {
     color: #0C729E;
 }
+
 
 /*todo garder le footer au bottom*/
 
@@ -139,7 +134,9 @@ body {
     justify-content: space-between;
 }*/
 
+
 /* Small devices (portrait tablets and large phones, 600px and up) Footer */
+
 @media screen and (min-width: 200px) and (max-width: 700px) {
     #footerHeader {
         height: 90px;
@@ -158,129 +155,123 @@ body {
     #footerMenu :nth-child(2) {
         order: -1;
     }
-
     .dropdown-menu {
         border: none;
         background-color: transparent;
     }
 }
 
-/* Small devices (200px - 350px) */
-@media screen and (min-width: 200px) and (max-width: 350px) {
 
+/* Small devices (200px - 350px) */
+
+@media screen and (min-width: 200px) and (max-width: 350px) {
     .text-home-head {
         font-size: 18px !important;
     }
-
     .row-top p {
         margin-left: 10%;
     }
-
     .header-title {
         font-size: 30px !important;
     }
-    
     .img-rent-app {
         margin-top: 20px;
         margin-bottom: -20px;
     }
 }
 
-/* Small devices (350px - 500px) */
-@media screen and (min-width: 350px) and (max-width: 500px) {
 
+/* Small devices (350px - 500px) */
+
+@media screen and (min-width: 350px) and (max-width: 500px) {
     .text-home-head {
         font-size: 18px !important;
     }
-
     .row-top p {
         margin-left: 10%;
     }
-
     .header-title {
         font-size: 30px !important;
     }
-
     .img-rent-app {
         margin-top: 20px;
         margin-bottom: -20px;
     }
-
     .img-background {
         left: 3em;
     }
-    
 }
 
-/* Small devices (500px - 600px) */
-@media screen and (min-width: 500px) and (max-width: 600px) {
 
+/* Small devices (500px - 600px) */
+
+@media screen and (min-width: 500px) and (max-width: 600px) {
     .text-home-head {
         font-size: 18px !important;
     }
-
     .row-top p {
         margin-left: 10%;
     }
-
     .header-title {
         font-size: 30px !important;
     }
-
     .img-background {
         margin-left: -5em;
     }
 }
 
-/* Small devices (portrait tablets and large phones, 600px and up) */
-@media screen and (min-width: 600px) and (max-width: 700px) {
 
+/* Small devices (portrait tablets and large phones, 600px and up) */
+
+@media screen and (min-width: 600px) and (max-width: 700px) {
     .text-home-head {
         left: 2em;
         top: -4.5em;
     }
 }
 
+
 /* Medium devices (landscape tablets, 700px - 800px) */
+
 @media screen and (min-width: 700px) and (max-width: 800px) {
-
-
     .text-home-head {
         left: 3em;
         top: -4.5em;
     }
 }
 
-/* Medium devices (landscape tablets, 800px and 1000px) */
-@media screen and (min-width: 800px) and (max-width: 992px) {
 
+/* Medium devices (landscape tablets, 800px and 1000px) */
+
+@media screen and (min-width: 800px) and (max-width: 992px) {
     .text-home-head {
         left: 5em;
         top: -4.5em;
     }
-
     .img-rent-app {
         margin-top: 100px;
     }
 }
 
+
 /* Large devices (laptops/desktops, 992px and up) */
+
 @media only screen and (min-width: 992px) {
     .text-home-head {
         left: 8em;
     }
-
     .img-rent-app {
         margin-top: 80px;
     }
 }
 
+
 /* Extra large devices (large laptops and desktops, 1200px and up) */
+
 @media only screen and (min-width: 1200px) {
     .text-home-head {
         left: 10em;
     }
-
     .img-rent-app {
         margin-top: 30px;
     }

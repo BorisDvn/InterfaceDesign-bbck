@@ -5,65 +5,84 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="stylesheet" href="./css/style.css">
     <title>bbck</title>
 </head>
 
 <body>
 
-    <div id="impressum">
-        <h2>Impressum</h2>
-        <p>Angaben gem. § 5 TMG:</p>
-        <p> Vorname, Name </p>
-        <p>Adresse </p>
-        <p>PLZ </p>
-        <p>Kontaktaufnahme: </p>
-        <p>Telefon: </p>
-        <p>Fax: </p>
-        <p>E-Mail: </p>
-        <p>Umsatzsteuer-ID</p>
+    <nav class="navbar navbar-expand-lg navbar-light ">
+        <div class="container-fluid">
+            <img src="assets/img/logo_blue.png" alt="" srcset="" width="60px" height="50px">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">
+                            <span class="item-under">Home</span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="./pages/projects.html">
+                            <span class="item-under">Projects</span>
+                        </a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link active dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            <span class="item-under_">Services</span>
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li>
+                                <h1 class="dropdown-header"><a class="service-dev" href="../pages/service-dev.html">Development & Conception</a></h1>
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="#">SaaS</a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="#">Cloud / Backup</a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="#">CI / CD</a>
+                            </li>
+                            <li>
+                                <h1 class="dropdown-header"><a class="service-dev" href="./pages/service-system.html">System Administration</a></h1>
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="#">Emails / Network Administration</a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="#">Backup</a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="#">Software Distribution</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#">
+                            <span class="item-under">Tech</span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#">
+                            <span class="item-under">About-us</span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#">
+                            <span class="item-under">Contact</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
 
-        <p>Umsatzsteuer-Identifikationsnummer gem. § 27 a Umsatzsteuergesetz:</p>
-        <p>DE XXX XXX XXX</p>
-        <p> Haftungsausschluss – Disclaimer:</p>
-        <p> Haftung für Inhalte Alle</p>
-
-        <p>Inhalte unseres Internetauftritts wurden mit größter Sorgfalt und nach bestem Gewissen erstellt. Für die Richtigkeit, Vollständigkeit und Aktualität der Inhalte können wir jedoch keine Gewähr übernehmen. Als Diensteanbieter sind wir gemäß § 7
-            Abs.1 TMG für eigene Inhalte auf diesen Seiten nach den allgemeinen Gesetzen verantwortlich. Nach §§ 8 bis 10 TMG sind wir als Diensteanbieter jedoch nicht verpflichtet, übermittelte oder gespeicherte fremde Informationen zu überwachen oder
-            nach Umständen zu forschen, die auf eine rechtswidrige Tätigkeit hinweisen. Verpflichtungen zur Entfernung oder Sperrung der Nutzung von Informationen nach den allgemeinen Gesetzen bleiben hiervon unberührt.</p>
-
-        <p>Eine diesbezügliche Haftung ist jedoch erst ab dem Zeitpunkt der Kenntniserlangung einer konkreten Rechtsverletzung möglich. Bei Bekanntwerden von den o.g. Rechtsverletzungen werden wir diese Inhalte unverzüglich entfernen. </p>
-
-        <p>Haftungsbeschränkung für externe Links </p>
-
-        <p>Unsere Webseite enthält Links auf externe Webseiten Dritter. Auf die Inhalte dieser direkt oder indirekt verlinkten Webseiten haben wir keinen Einfluss. Daher können wir für die „externen Links“ auch keine Gewähr auf Richtigkeit der Inhalte übernehmen.
-            Für die Inhalte der externen Links sind die jeweilige Anbieter oder Betreiber (Urheber) der Seiten verantwortlich.</p>
-
-        <p>Die externen Links wurden zum Zeitpunkt der Linksetzung auf eventuelle Rechtsverstöße überprüft und waren im Zeitpunkt der Linksetzung frei von rechtswidrigen Inhalten. Eine ständige inhaltliche Überprüfung der externen Links ist ohne konkrete
-            Anhaltspunkte einer Rechtsverletzung nicht möglich. Bei direkten oder indirekten Verlinkungen auf die Webseiten Dritter, die außerhalb unseres Verantwortungsbereichs liegen, würde eine Haftungsverpflichtung ausschließlich in dem Fall nur bestehen,
-            wenn wir von den Inhalten Kenntnis erlangen und es uns technisch möglich und zumutbar wäre, die Nutzung im Falle rechtswidriger Inhalte zu verhindern.
-        </p>
-
-        <p>Diese Haftungsausschlusserklärung gilt auch innerhalb des eigenen Internetauftrittes „Name Ihrer Domain“ gesetzten Links und Verweise von Fragestellern, Blogeinträgern, Gästen des Diskussionsforums. Für illegale, fehlerhafte oder unvollständige
-            Inhalte und insbesondere für Schäden, die aus der Nutzung oder Nichtnutzung solcherart dargestellten Informationen entstehen, haftet allein der Diensteanbieter der Seite, auf welche verwiesen wurde, nicht derjenige, der über Links auf die
-            jeweilige Veröffentlichung lediglich verweist. </p>
-
-        <p>Werden uns Rechtsverletzungen bekannt, werden die externen Links durch uns unverzüglich entfernt.</p>
-
-        <p> Urheberrecht</p>
-
-        <p> Die auf unserer Webseite veröffentlichen Inhalte und Werke unterliegen dem deutschen Urheberrecht (http://www.gesetze-im-internet.de/bundesrecht/urhg/gesamt.pdf) . Die Vervielfältigung, Bearbeitung, Verbreitung und jede Art der Verwertung des
-            geistigen Eigentums in ideeller und materieller Sicht des Urhebers außerhalb der Grenzen des Urheberrechtes bedürfen der vorherigen schriftlichen Zustimmung des jeweiligen Urhebers i.S.d. Urhebergesetzes (http://www.gesetze-im-internet.de/bundesrecht/urhg/gesamt.pdf
-            ). Downloads und Kopien dieser Seite sind nur für den privaten und nicht kommerziellen Gebrauch erlaubt. Sind die Inhalte auf unserer Webseite nicht von uns erstellt wurden, sind die Urheberrechte Dritter zu beachten. Die Inhalte Dritter werden
-            als solche kenntlich gemacht. Sollten Sie trotzdem auf eine Urheberrechtsverletzung aufmerksam werden, bitten wir um einen entsprechenden Hinweis. Bei Bekanntwerden von Rechtsverletzungen werden wir derartige Inhalte unverzüglich entfernen.</p>
-
-        <p>Dieses Impressum wurde freundlicherweise von jurarat.de zur Verfügung gestellt.</p>
-
-    </div>
-
-    <div class="toto">
-        toto
-    </div>
+    <h1>Home</h1>
 
     <footer>
         <div id="footerHeader">
@@ -90,20 +109,21 @@
             </div>
             <div id="daten">
                 <ul>
-                    <li>Impressum</li>
-                    <li>Datenschutz</li>
+                    <li>
+                        <a href="./pages/impressum.html">Impressum</a></li>
+                    <li><a href="#">Datenschutz</a></li>
                 </ul>
             </div>
             <div id="socialMedia">
                 <ul>
                     <li>
-                        <a href="http://"><img id="logo_footer" src="./img/logo_white.png" alt="logo_bbck"></a>
+                        <a href="http://"><img id="logo_footer" src="./assets/img/logo_white.png" alt="logo_bbck"></a>
 
                     </li>
                     <li id="footerSocialMediaLogo">
-                        <a href="#"><img id="logo_footer" src="./img/facebook.png" alt="logo_bbck"></a>
-                        <a href="#"><img id="logo_footer" src="./img/instagram.png" alt="logo_bbck"></a>
-                        <a href="#"><img id="logo_footer" src="./img/linkedin.png" alt="logo_bbck"></a>
+                        <a href="#"><img id="logo_footer" src="./assets/img/facebook.png" alt="logo_bbck"></a>
+                        <a href="#"><img id="logo_footer" src="./assets/img/instagram.png" alt="logo_bbck"></a>
+                        <a href="#"><img id="logo_footer" src="./assets/img/linkedin.png" alt="logo_bbck"></a>
                     </li>
                 </ul>
             </div>
@@ -112,6 +132,8 @@
             <p>All Rights Reserved. 2022 © BBCK</p>
         </div>
     </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 </body>
 
 </html>

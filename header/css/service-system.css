@@ -85,12 +85,12 @@ body {}
 .row-dev .second-col {
     margin-top: 5em;
     color: white;
-    font-size: 22px;
+    font-size: 20px;
 }
 
 .second-col-ci {
     color: white;
-    font-size: 22px;
+    font-size: 20px;
 }
 
 .second-col-ci a {
@@ -154,6 +154,11 @@ body {}
 
 #socialMedia {
     text-align: center;
+}
+
+#daten a {
+    text-decoration: none;
+    color: white;
 }
 
 /*#footerSocialMediaLogo {

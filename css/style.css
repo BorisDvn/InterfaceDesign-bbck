@@ -1,3 +1,5 @@
+/* Navbar */
+
 .item-under {
     border-bottom: 4px solid #0c729e;
     padding-bottom: 3px;
@@ -26,6 +28,45 @@ li {
     text-decoration: none;
     color: black;
 }
+
+
+/*Navbar End*/
+
+
+/* Title*/
+
+#pageTitle {
+    margin-bottom: 30px;
+}
+
+.row-top {
+    margin-top: 5% !important;
+    height: 250px;
+    background-color: #F7FCFE;
+}
+
+.row-top p {
+    margin-left: 20%;
+}
+
+.row-top h1 p {
+    padding-top: 50px;
+    font-family: Inter;
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.code-left,
+.code-rigth {
+    color: #0C729E;
+}
+
+.text-home-head {
+    margin-bottom: 6em;
+}
+
+
+/*Title*/
 
 
 /*todo garder le footer au bottom*/

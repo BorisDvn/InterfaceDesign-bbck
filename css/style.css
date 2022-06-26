@@ -94,13 +94,13 @@ li {
     padding-left: 2%;
     padding-right: 2%;
     height: 20%;
-    background-color: rgba(24, 74, 126, 1);
+    background-color: #0C729E;
     color: rgb(255, 255, 255);
 }
 
 #footerHeader {
     height: 100px;
-    background-image: url("../assets/img/footer_header.svg");
+    background-image: url("../assets/img/neWave.svg");
     background-repeat: no-repeat;
     background-position: bottom;
     background-size: 100% 100%;
@@ -113,7 +113,7 @@ li {
 
 #footerEnd p {
     text-align: center;
-    background-color: rgba(24, 74, 126, 1);
+    background-color: #0C729E;
     color: rgb(255, 255, 255);
     height: 30px;
     margin: 0;
@@ -145,7 +145,7 @@ li {
 @media screen and (min-width: 200px) and (max-width: 700px) {
     #footerHeader {
         height: 90px;
-        background-image: url("../assets/img/footer_header_resp.svg");
+        background-image: url("../assets/img/neWave.svg");
     }
     #footerMenu {
         flex-direction: column;

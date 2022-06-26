@@ -17,7 +17,7 @@ body {
 }
 
 #contact_title #title2 {
-    color: blue;
+    color: rgba(24, 74, 126, 1);
 }
 
 #contact {
@@ -26,7 +26,7 @@ body {
     color: black;
     border: 2px rgb(15, 15, 129) solid;
     border-radius: 15px;
-    background-color: rgb(32, 96, 165);
+    background-color: rgba(24, 74, 126, 1);
     width: 50%;
     padding-left: 20px;
     padding-right: 20px;
@@ -117,86 +117,7 @@ body {
     font-weight: bold;
 }
 
-
-/*todo garder le footer au bottom*/
-
-
-/*footer */
-
-#footerMenu ul {
-    list-style-type: none;
-    padding: 0px;
-}
-
-#footerMenu li {
-    list-style-type: none;
-    margin-bottom: 3px;
-}
-
-#footerMenu {
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    padding-left: 2%;
-    padding-right: 2%;
-    height: 20%;
-    background-color: rgba(24, 74, 126, 1);
-    color: rgb(255, 255, 255);
-}
-
-#footerHeader {
-    height: 100px;
-    background-image: url("../img/footer_header.svg");
-    background-repeat: no-repeat;
-    background-position: bottom;
-    background-size: 100% 100%;
-}
-
-#footerMenuTitle h2 {
-    margin-bottom: 5px;
-}
-
-#footerEnd p {
-    text-align: center;
-    background-color: rgba(24, 74, 126, 1);
-    color: rgb(255, 255, 255);
-    height: 30px;
-    margin: 0;
-}
-
-#logo_footer {
-    width: 30px;
-    height: 30px;
-}
-
-#socialMedia {
-    text-align: center;
-}
-
-
-/*#footerSocialMediaLogo {
-    display: flex;
-    justify-content: space-between;
-}*/
-
 @media screen and (max-width: 700px) {
-    #footerHeader {
-        height: 90px;
-        background-image: url("../img/footer_header_resp.svg");
-    }
-    #footerMenu {
-        flex-direction: column;
-        text-align: center;
-    }
-    #footerMenu #servicesDevelopment {
-        white-space: nowrap;
-    }
-    #footerMenu :nth-child(4) {
-        order: -2;
-    }
-    #footerMenu :nth-child(2) {
-        order: -1;
-    }
     #contact_part1 {
         display: flex;
         /*justify-content: space-between;*/
@@ -208,14 +129,3 @@ body {
         width: 190%;
     }
 }
-
-
-/*
-@media screen and (max-width: 1120) {
-    #contact_part1 {
-        display: flex;
-        
-        margin-bottom: 15px;
-        flex-direction: column;
-    }
-}*/

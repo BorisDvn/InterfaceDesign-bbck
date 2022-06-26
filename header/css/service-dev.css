@@ -186,6 +186,11 @@ body {}
     #footerMenu :nth-child(2) {
         order: -1;
     }
+    
+    .dropdown-menu {
+        border: none;
+        background-color: transparent;
+    }
 }
 
 /* Small devices (200px - 350px) */

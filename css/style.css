@@ -121,4 +121,10 @@
     #footerMenu :nth-child(2) {
         order: -1;
     }
+    .vertical {
+        border: none;
+    }
+    .horizontal {
+        border: none;
+    }
 }

@@ -1,0 +1,287 @@
+body {
+
+}
+
+.row-top {
+    margin-top: 5% !important;
+    height: 250px;
+    background-color: #F7FCFE;
+
+}
+
+.row-top p {
+    margin-left: 20%;
+}
+
+.row-top h1 p {
+    padding-top: 50px;
+    font-family: Inter;
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.code-left, .code-rigth {
+    color: #0C729E;
+}
+
+.text-home-head {
+    margin-bottom: 6em;
+}
+
+.row-dev {
+    margin-top: 5%;
+}
+
+.content {
+    margin-top: 5em;
+}
+
+.content a {
+    color: #0C729E;
+    text-decoration: none;
+}
+
+.img-rent-app {
+
+}
+
+.dev-title {
+    font-family: Farro;
+    font-weight: bold;
+    font-size: 35px;
+}
+
+.btn-explore-more {
+    background-color: #0C729E !important;
+    width: 220px;
+    height: 50px;
+    margin-bottom: 5em;
+    margin-top: 5em;
+}
+
+.navbar-collapse {
+    margin-left: 30%;
+    text-align: center;
+}
+
+.img-background {
+    position: absolute;
+    z-index: -1;
+    top: 45em;
+}
+
+.cloud-part {
+    color: #0C729E;
+}
+
+/*todo garder le footer au bottom*/
+
+
+/*footer {
+    position:absolute;
+    bottom: 0;
+}*/
+
+#footerMenu ul {
+    list-style-type: none;
+    padding: 0px;
+}
+
+#footerMenu li {
+    list-style-type: none;
+    margin-bottom: 3px;
+}
+
+#footerMenu {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding-left: 2%;
+    padding-right: 2%;
+    height: 20%;
+    background-color: rgba(24, 74, 126, 1);
+    color: rgb(255, 255, 255);
+}
+
+#footerHeader {
+    height: 100px;
+    background-image: url("../assets/img/footer_header.svg");
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: 100% 100%;
+}
+
+#footerMenuTitle h2 {
+    margin-bottom: 5px;
+    font-size: 1.5em;
+}
+
+#footerEnd p {
+    text-align: center;
+    background-color: rgba(24, 74, 126, 1);
+    color: rgb(255, 255, 255);
+    height: 30px;
+    margin: 0;
+}
+
+#logo_footer {
+    width: 30px;
+    height: 30px;
+}
+
+#socialMedia {
+    text-align: center;
+}
+
+
+/*#footerSocialMediaLogo {
+    display: flex;
+    justify-content: space-between;
+}*/
+
+/* Small devices (portrait tablets and large phones, 600px and up) Footer */
+@media screen and (min-width: 200px) and (max-width: 700px) {
+    #footerHeader {
+        height: 90px;
+        background-image: url("../assets/img/footer_header_resp.svg");
+    }
+    #footerMenu {
+        flex-direction: column;
+        text-align: center;
+    }
+    #footerMenu #servicesDevelopment {
+        white-space: nowrap;
+    }
+    #footerMenu :nth-child(4) {
+        order: -2;
+    }
+    #footerMenu :nth-child(2) {
+        order: -1;
+    }
+
+    .dropdown-menu {
+        border: none;
+        background-color: transparent;
+    }
+}
+
+/* Small devices (200px - 350px) */
+@media screen and (min-width: 200px) and (max-width: 350px) {
+
+    .text-home-head {
+        font-size: 18px !important;
+    }
+
+    .row-top p {
+        margin-left: 10%;
+    }
+
+    .header-title {
+        font-size: 30px !important;
+    }
+    
+    .img-rent-app {
+        margin-top: 20px;
+        margin-bottom: -20px;
+    }
+}
+
+/* Small devices (350px - 500px) */
+@media screen and (min-width: 350px) and (max-width: 500px) {
+
+    .text-home-head {
+        font-size: 18px !important;
+    }
+
+    .row-top p {
+        margin-left: 10%;
+    }
+
+    .header-title {
+        font-size: 30px !important;
+    }
+
+    .img-rent-app {
+        margin-top: 20px;
+        margin-bottom: -20px;
+    }
+
+    .img-background {
+        left: 3em;
+    }
+    
+}
+
+/* Small devices (500px - 600px) */
+@media screen and (min-width: 500px) and (max-width: 600px) {
+
+    .text-home-head {
+        font-size: 18px !important;
+    }
+
+    .row-top p {
+        margin-left: 10%;
+    }
+
+    .header-title {
+        font-size: 30px !important;
+    }
+
+    .img-background {
+        margin-left: -5em;
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media screen and (min-width: 600px) and (max-width: 700px) {
+
+    .text-home-head {
+        left: 2em;
+        top: -4.5em;
+    }
+}
+
+/* Medium devices (landscape tablets, 700px - 800px) */
+@media screen and (min-width: 700px) and (max-width: 800px) {
+
+
+    .text-home-head {
+        left: 3em;
+        top: -4.5em;
+    }
+}
+
+/* Medium devices (landscape tablets, 800px and 1000px) */
+@media screen and (min-width: 800px) and (max-width: 992px) {
+
+    .text-home-head {
+        left: 5em;
+        top: -4.5em;
+    }
+
+    .img-rent-app {
+        margin-top: 100px;
+    }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    .text-home-head {
+        left: 8em;
+    }
+
+    .img-rent-app {
+        margin-top: 80px;
+    }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    .text-home-head {
+        left: 10em;
+    }
+
+    .img-rent-app {
+        margin-top: 30px;
+    }
+}

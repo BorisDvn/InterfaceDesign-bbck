@@ -132,6 +132,10 @@ body {
     #footerMenu :nth-child(2) {
         order: -1;
     }
+
+    .dropdown-menu {
+        border: none;
+    }
 }
 
 /* Small devices (200px - 350px) */

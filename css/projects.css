@@ -53,11 +53,6 @@
     margin-top: 5em;
 }
 
-.navbar-collapse {
-    margin-left: 30%;
-    text-align: center;
-}
-
 .img-background {
     position: absolute;
     z-index: -1;

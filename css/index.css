@@ -41,12 +41,6 @@ body {}
     color: #0C729E;
 }
 
-.navbar-collapse {
-    margin-left: 30%;
-    text-align: center;
-}
-
-
 /* Small devices (200px - 350px) */
 
 @media screen and (min-width: 200px) and (max-width: 350px) {

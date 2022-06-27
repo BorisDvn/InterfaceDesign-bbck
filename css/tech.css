@@ -38,6 +38,37 @@
     margin-top: 10px;
 }
 
+/* Title*/
+
+#pageTitle {
+    margin-bottom: 30px;
+}
+
+.row-top {
+    margin-top: 5% !important;
+    height: 250px;
+    background-color: #F7FCFE;
+}
+
+.row-top p {
+    margin-left: 20%;
+}
+
+.row-top h1 p {
+    padding-top: 50px;
+    font-family: Inter;
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.code-left,
+.code-rigth {
+    color: #0C729E;
+}
+
+.text-home-head {
+    margin-bottom: 6em;
+}
 
 /* Small devices (portrait tablets and large phones, 600px and up) Footer */
 

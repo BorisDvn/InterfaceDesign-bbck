@@ -52,13 +52,13 @@ li {
     padding-left: 2%;
     padding-right: 2%;
     height: 20%;
-    background-color: #0c729e;
+    background-color: #0C729E;
     color: rgb(255, 255, 255);
 }
 
 #footerHeader {
     height: 100px;
-    background-image: url("../assets/img/footer_header.svg");
+    background-image: url("../assets/img/neWave.svg");
     background-repeat: no-repeat;
     background-position: bottom;
     background-size: 100% 100%;
@@ -71,7 +71,7 @@ li {
 
 #footerEnd p {
     text-align: center;
-    background-color: #0c729e;
+    background-color: #0C729E;
     color: rgb(255, 255, 255);
     height: 30px;
     margin: 0;
@@ -91,13 +91,11 @@ li {
     color: white;
 }
 
-
 /* Small devices (portrait tablets and large phones, 600px and up) Footer */
-
 @media screen and (min-width: 200px) and (max-width: 700px) {
     #footerHeader {
         height: 90px;
-        background-image: url("../assets/img/footer_header_resp.svg");
+        background-image: url("../assets/img/neWave.svg");
     }
     #footerMenu {
         flex-direction: column;
@@ -112,6 +110,7 @@ li {
     #footerMenu :nth-child(2) {
         order: -1;
     }
+
     .dropdown-menu {
         border: none;
         background-color: transparent;

@@ -1,15 +1,11 @@
-body {
-
-}
+    body {}
 
 .row-top {
     margin-top: 5% !important;
     height: 250px;
-
 }
 
-.row-top p {
-}
+.row-top p {}
 
 .row-top h1 p {
     padding-top: 50px;
@@ -18,7 +14,8 @@ body {
     font-weight: bold;
 }
 
-.code-left, .code-rigth {
+.code-left,
+.code-rigth {
     color: #0C729E;
 }
 
@@ -39,9 +36,7 @@ body {
     text-decoration: none;
 }
 
-.img-rent-app {
-
-}
+.img-rent-app {}
 
 .dev-title {
     font-family: Farro;
@@ -76,97 +71,102 @@ body {
     float: right;
 }
 
+
 /* Small devices (200px - 350px) */
+
 @media screen and (min-width: 200px) and (max-width: 350px) {
     .row-top p {
         margin-left: 10%;
     }
-
     .header-title {
         font-size: 30px !important;
     }
-    
     .img-rent-app {
         margin-top: 20px;
         margin-bottom: -20px;
     }
-
     .img-background {
         left: 0em;
     }
 }
 
-/* Small devices (350px - 500px) */
-@media screen and (min-width: 350px) and (max-width: 500px) {
 
+/* Small devices (350px - 500px) */
+
+@media screen and (min-width: 350px) and (max-width: 500px) {
     .row-top p {
         margin-left: 10%;
     }
-
     .header-title {
         font-size: 30px !important;
     }
-
     .img-rent-app {
         margin-top: 20px;
         margin-bottom: -20px;
     }
-
     .img-background {
         left: 3em;
     }
-    
 }
 
-/* Small devices (500px - 600px) */
-@media screen and (min-width: 500px) and (max-width: 600px) {
 
+/* Small devices (500px - 600px) */
+
+@media screen and (min-width: 500px) and (max-width: 600px) {
     .row-top p {
         margin-left: 10%;
     }
-
     .header-title {
         font-size: 30px !important;
     }
-
     .img-background {
         margin-left: -5em;
     }
 }
 
-/* Small devices (portrait tablets and large phones, 600px and up) */
-@media screen and (min-width: 600px) and (max-width: 700px) {
 
-}
+/* Small devices (portrait tablets and large phones, 600px and up) */
+
+@media screen and (min-width: 600px) and (max-width: 700px) {}
+
 
 /* Medium devices (landscape tablets, 700px - 800px) */
-@media screen and (min-width: 700px) and (max-width: 800px) {
 
-}
+@media screen and (min-width: 700px) and (max-width: 800px) {}
+
 
 /* Medium devices (landscape tablets, 800px and 1000px) */
-@media screen and (min-width: 800px) and (max-width: 992px) {
 
+@media screen and (min-width: 800px) and (max-width: 992px) {
     .img-rent-app {
         margin-top: 100px;
     }
 }
 
+
 /* Large devices (laptops/desktops, 992px and up) */
+
 @media only screen and (min-width: 992px) {
     .img-rent-app {
         margin-top: 80px;
     }
 }
 
-/* Extra large devices (large laptops and desktops, 1200px and up) */
-@media only screen and (min-width: 1200px) {
 
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+
+@media only screen and (min-width: 1200px) {
     .img-rent-app {
         margin-top: 30px;
     }
-
     .row-top {
         padding-left: 3% !important;
     }
-}
+    #impressum {
+        margin-top: 30px;
+        text-align: justify;
+    }
+    #impressum #title {
+        text-decoration: underline;
+        font-weight: bold;
+    }

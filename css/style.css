@@ -1,0 +1,167 @@
+/* Navbar */
+
+.item-under {
+    border-bottom: 4px solid #0c729e;
+    padding-bottom: 3px;
+    margin-right: 15px;
+}
+
+.item-under_ {
+    border-bottom: 4px solid #0c729e;
+    padding-bottom: 3px;
+}
+
+.navbar-nav {
+    margin-right: 50%;
+    font-size: 20px;
+}
+
+.nav-item {
+    white-space: nowrap;
+}
+
+li {
+    text-decoration: none !important;
+}
+
+.service-dev {
+    text-decoration: none;
+    color: black;
+}
+
+
+/*Navbar End*/
+
+
+/* Title*/
+
+#pageTitle {
+    margin-bottom: 30px;
+}
+
+.row-top {
+    margin-top: 5% !important;
+    height: 250px;
+    background-color: #F7FCFE;
+}
+
+.row-top p {
+    margin-left: 20%;
+}
+
+.row-top h1 p {
+    padding-top: 50px;
+    font-family: Inter;
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.code-left,
+.code-rigth {
+    color: #0C729E;
+}
+
+.text-home-head {
+    margin-bottom: 6em;
+}
+
+
+/*Title*/
+
+
+/*todo garder le footer au bottom*/
+
+
+/*footer {
+    position:absolute;
+    bottom: 0;
+}*/
+
+#footerMenu ul {
+    list-style-type: none;
+    padding: 0px;
+}
+
+#footerMenu li {
+    list-style-type: none;
+    margin-bottom: 3px;
+}
+
+#footerMenu {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding-left: 2%;
+    padding-right: 2%;
+    height: 20%;
+    background-color: #0C729E;
+    color: rgb(255, 255, 255);
+}
+
+#footerHeader {
+    height: 100px;
+    background-image: url("../assets/img/neWave.svg");
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: 100% 100%;
+}
+
+#footerMenuTitle h2 {
+    margin-bottom: 5px;
+    font-size: 1.5em;
+}
+
+#footerEnd p {
+    text-align: center;
+    background-color: #0C729E;
+    color: rgb(255, 255, 255);
+    height: 30px;
+    margin: 0;
+}
+
+#logo_footer {
+    width: 30px;
+    height: 30px;
+}
+
+#socialMedia {
+    text-align: center;
+}
+
+#daten a {
+    text-decoration: none;
+    color: white;
+}
+
+
+/*#footerSocialMediaLogo {
+    display: flex;
+    justify-content: space-between;
+}*/
+
+
+/* Small devices (portrait tablets and large phones, 600px and up) Footer */
+
+@media screen and (min-width: 200px) and (max-width: 700px) {
+    #footerHeader {
+        height: 90px;
+        background-image: url("../assets/img/neWave.svg");
+    }
+    #footerMenu {
+        flex-direction: column;
+        text-align: center;
+    }
+    #footerMenu #servicesDevelopment {
+        white-space: nowrap;
+    }
+    #footerMenu :nth-child(4) {
+        order: -2;
+    }
+    #footerMenu :nth-child(2) {
+        order: -1;
+    }
+    .dropdown-menu {
+        border: none;
+        background-color: transparent;
+    }
+}

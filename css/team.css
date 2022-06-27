@@ -1,0 +1,102 @@
+/*entete*/
+
+#entete {
+    padding-top: 15px;
+    text-align: center;
+    height: 150px;
+    background-color: aquamarine;
+    padding-bottom: 15px;
+    margin-bottom: 15px;
+}
+
+
+/*team*/
+
+#person {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    align-content: stretch;
+    padding-left: 10%;
+    padding-right: 10%;
+    background-image: url("../assets/img/blob.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#personHead img {
+    border-radius: 12px;
+    margin-bottom: 15px;
+}
+
+#personHead #profil {
+    border: #0c729e 1px solid;
+    box-shadow: #0c729e 0px 2px 8px 0px;
+}
+
+
+/*#person1 {
+    width: 100%;
+}*/
+
+
+/*#person2 {
+    width: 40%;
+}*/
+
+#personName {
+    font-size: x-large;
+    font-weight: bold;
+}
+
+#personPosition {
+    font-size: large;
+}
+
+#personlogo {
+    margin-top: 10px;
+}
+
+#personBody h3 {
+    margin: 0;
+}
+
+#aboutMe {
+    margin-top: 30px;
+    margin-bottom: 40px;
+}
+
+#personBody h3 {
+    text-decoration-color: #0c729e;
+    text-decoration-line: underline;
+    text-decoration-thickness: 3px;
+    text-underline-offset: 0.3em;
+    text-underline-offset: 3px;
+}
+
+#personBody p {
+    margin: 5px;
+}
+
+@media screen and (max-width: 700px) {
+    #person {
+        flex-direction: column;
+        background: none;
+        padding-left: 0%;
+        padding-right: 0%;
+    }
+    #profil {
+        border-radius: 0px;
+    }
+    #person1 {
+        width: 80%;
+        margin: auto;
+        margin-bottom: 20px;
+        padding-bottom: 15px;
+        border-bottom: 8px steelblue solid;
+    }
+    #person2 {
+        width: 80%;
+        margin: auto;
+    }
+}

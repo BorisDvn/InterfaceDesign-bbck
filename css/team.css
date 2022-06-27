@@ -29,6 +29,11 @@
     margin-bottom: 15px;
 }
 
+#personHead #profil {
+    border: #0c729e 1px solid;
+    box-shadow: #0c729e 0px 2px 8px 0px;
+}
+
 
 /*#person1 {
     width: 100%;
@@ -57,12 +62,12 @@
 }
 
 #aboutMe {
-    margin-top: 20px;
-    margin-bottom: 20px;
+    margin-top: 30px;
+    margin-bottom: 40px;
 }
 
 #personBody h3 {
-    text-decoration-color: blue;
+    text-decoration-color: #0c729e;
     text-decoration-line: underline;
     text-decoration-thickness: 3px;
     text-underline-offset: 0.3em;

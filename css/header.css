@@ -52,7 +52,7 @@ li {
     padding-left: 2%;
     padding-right: 2%;
     height: 20%;
-    background-color: rgba(24, 74, 126, 1);
+    background-color: #0c729e;
     color: rgb(255, 255, 255);
 }
 
@@ -71,7 +71,7 @@ li {
 
 #footerEnd p {
     text-align: center;
-    background-color: rgba(24, 74, 126, 1);
+    background-color: #0c729e;
     color: rgb(255, 255, 255);
     height: 30px;
     margin: 0;
@@ -91,7 +91,9 @@ li {
     color: white;
 }
 
+
 /* Small devices (portrait tablets and large phones, 600px and up) Footer */
+
 @media screen and (min-width: 200px) and (max-width: 700px) {
     #footerHeader {
         height: 90px;
@@ -110,7 +112,6 @@ li {
     #footerMenu :nth-child(2) {
         order: -1;
     }
-
     .dropdown-menu {
         border: none;
         background-color: transparent;

@@ -100,6 +100,10 @@ body {}
     border: none;
 }
 
+.row-top p {
+    margin-left: 20%;
+}
+
 /* Small devices (200px - 350px) */
 @media screen and (min-width: 200px) and (max-width: 700px) {
     .row-dev .second-col{

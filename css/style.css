@@ -11,6 +11,7 @@
 
 .navbar-nav {
     font-size: 20px;
+    margin-right: 20px !important;
 }
 
 .nav-item {
@@ -26,6 +27,9 @@ li {
     color: black;
 }
 
+#daten a, #company a, #services a {
+    text-decoration: underline !important;
+}
 
 /*todo garder le footer au bottom*/
 
@@ -91,9 +95,19 @@ li {
     color: white;
 }
 
+#footerMenu {
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+/* To Manage the header on all small screens */
+@media screen and (min-width: 200px) and (max-width: 992px) { 
+    .navbar-nav {
+        padding-left: 40% !important;
+    }
+}
 
 /* Small devices (portrait tablets and large phones, 600px and up) Footer */
-
 @media screen and (min-width: 200px) and (max-width: 700px) {
     #footerHeader {
         height: 90px;

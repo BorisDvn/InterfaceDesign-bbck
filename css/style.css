@@ -1,0 +1,132 @@
+.item-under {
+    border-bottom: 4px solid #0C729E;
+    padding-bottom: 3px;
+    margin-right: 15px;
+}
+
+.item-under_ {
+    border-bottom: 4px solid #0C729E;
+    padding-bottom: 3px;
+}
+
+.navbar-nav {
+    font-size: 20px;
+    margin-right: 20px !important;
+}
+
+.nav-item {
+    white-space: nowrap;
+}
+
+li {
+    text-decoration: none !important;
+}
+
+.service-dev {
+    text-decoration: none;
+    color: black;
+}
+
+#daten a, #company a, #services a {
+    text-decoration: underline !important;
+}
+
+/*todo garder le footer au bottom*/
+
+
+/*footer {
+    position:absolute;
+    bottom: 0;
+}*/
+
+#footerMenu ul {
+    list-style-type: none;
+    padding: 0px;
+}
+
+#footerMenu li {
+    list-style-type: none;
+    margin-bottom: 3px;
+}
+
+#footerMenu {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding-left: 2%;
+    padding-right: 2%;
+    height: 20%;
+    background-color: #0C729E;
+    color: rgb(255, 255, 255);
+}
+
+#footerHeader {
+    height: 100px;
+    background-image: url("../assets/img/neWave.svg");
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: 100% 100%;
+}
+
+#footerMenuTitle h2 {
+    margin-bottom: 5px;
+    font-size: 1.5em;
+}
+
+#footerEnd p {
+    text-align: center;
+    background-color: #0C729E;
+    color: rgb(255, 255, 255);
+    height: 30px;
+    margin: 0;
+}
+
+#logo_footer {
+    width: 30px;
+    height: 30px;
+}
+
+#socialMedia {
+    text-align: center;
+}
+
+#footerMenu a {
+    text-decoration: none;
+    color: white;
+}
+
+#footerMenu {
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+/* To Manage the header on all small screens */
+@media screen and (min-width: 200px) and (max-width: 992px) { 
+    .navbar-nav {
+        padding-left: 40% !important;
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) Footer */
+@media screen and (min-width: 200px) and (max-width: 700px) {
+    #footerHeader {
+        height: 90px;
+    }
+    #footerMenu {
+        flex-direction: column;
+        text-align: center;
+    }
+    #footerMenu #servicesDevelopment {
+        white-space: nowrap;
+    }
+    #footerMenu :nth-child(4) {
+        order: -2;
+    }
+    #footerMenu :nth-child(2) {
+        order: -1;
+    }
+    .dropdown-menu {
+        border: none;
+        background-color: transparent;
+    }
+}

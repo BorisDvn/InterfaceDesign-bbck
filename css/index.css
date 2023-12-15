@@ -1,0 +1,139 @@
+body {}
+
+.row-top {
+    margin-top: 5%;
+}
+
+.row-dev {
+    margin-top: -15%;
+}
+
+.content {
+    margin-top: 5em;
+}
+
+.content a {
+    color: #0C729E;
+    text-decoration: none;
+}
+
+.img-sys-ad {
+    padding-right: 8em;
+}
+
+.dev-title {
+    font-family: Farro;
+    font-weight: bold;
+    font-size: 35px;
+}
+
+.text-home-head {
+    font-family: inter;
+    font-weight: bold;
+    font-size: 69px;
+    position: relative;
+    left: 10.5em;
+    top: -5em;
+    width: 390px;
+}
+
+.cloud-part {
+    color: #0C729E;
+}
+
+/* Small devices (200px - 350px) */
+
+@media screen and (min-width: 200px) and (max-width: 350px) {
+    .text-home-head {
+        left: 1em !important;
+        top: -4em !important;
+        font-size: 40px;
+        width: 250px;
+    }
+    .img-sys-ad {
+        margin-top: 20px;
+        margin-bottom: -20px;
+    }
+}
+
+
+/* Small devices (350px - 500px) */
+
+@media screen and (min-width: 350px) and (max-width: 500px) {
+    .text-home-head {
+        left: 2em !important;
+        top: -4.5em !important;
+        font-size: 50px;
+        width: 250px;
+    }
+    .img-sys-ad {
+        margin-top: 20px;
+        margin-bottom: -20px;
+    }
+}
+
+
+/* Small devices (500px - 600px) */
+
+@media screen and (min-width: 500px) and (max-width: 600px) {
+    .text-home-head {
+        left: 3.5em !important;
+        top: -5em !important;
+        font-size: 55px;
+        width: 300px;
+    }
+    .img-background {
+        margin-left: -5em;
+    }
+}
+
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+
+@media screen and (min-width: 600px) and (max-width: 700px) {
+    .img-background {
+        margin-left: -6em;
+    }
+    .text-home-head {
+        left: 2em;
+        top: -4.5em !important;
+    }
+}
+
+
+/* Medium devices (landscape tablets, 700px - 800px) */
+
+@media screen and (min-width: 700px) and (max-width: 800px) {
+    .text-home-head {
+        left: 3em;
+        top: -4.5em;
+    }
+}
+
+
+/* Medium devices (landscape tablets, 800px and 1000px) */
+
+@media screen and (min-width: 800px) and (max-width: 1000px) {
+    .text-home-head {
+        left: 5em;
+        top: -4.5em;
+    }
+}
+
+
+/* Large devices (laptops/desktops, 992px and up) */
+
+@media only screen and (min-width: 992px) {
+    .text-home-head {
+        left: 8em;
+    }
+}
+
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+
+@media only screen and (min-width: 1200px) {
+    .text-home-head {
+        left: 10em;
+    }
+}
